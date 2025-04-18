@@ -10,7 +10,7 @@ from utils.datasets import letterbox  # Corrected import
 from tqdm import tqdm  # Import tqdm for progress bar
 
 # === Config ===
-image_folder = "/home/bharath/Downloads/test_codes/hcl_task1/yolo/kaggle_data_train/5/CrowdHuman Cropped/Dataset CrowdHuman/non crowd"
+image_folder = "../5/CrowdHuman Cropped/Dataset CrowdHuman/non crowd"
 yolo_model_path = "weights/crowdhuman_yolov5m.pt"
 output_folder = "annotations/non crowd"  # Folder to save the annotations
 
